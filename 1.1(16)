@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+setlocale(LC_ALL,"RUS");
+int a,b,tmp;
+cout<<"Введите 2 числа\n";
+cin>>a>>b;
+tmp=a;
+a=b;
+b=tmp;
+cout<<a<<endl;
+cout<<b<<endl;
+system("pause");
+return 0;
+
+}
